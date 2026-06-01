@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Cache files generated during training
+back_trans_cache.json
+back_trans_cache.json.lock
+lang_check_cache.json
+lang_check_cache.json.lock
+llm_cache.json
+
+# Training artifacts
+*.pt
+*.ckpt
+wandb/
+outputs/
+checkpoints/

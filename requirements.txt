@@ -1,0 +1,10 @@
+# HOMURA-specific dependencies (beyond verl's requirements)
+# Install verl first: cd verl-HOMURA && pip install -e .
+
+pyphen
+fugashi
+unidic-lite
+sacrebleu
+ftlangdetect
+json-repair
+openai>=1.0
